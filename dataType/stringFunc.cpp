@@ -11,7 +11,7 @@ int main() {
     cout << pharse << endl;
     cout << pharse.length() << endl;
     cout << pharse.find("hi", 0) << endl;
-    cout << substring;
+    cout << substring << endl;
 
     return 0;
 }

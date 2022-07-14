@@ -8,7 +8,12 @@ int main() {
 	
 	for(int i=0; i < num; i++) {
 
-		cout << luckyNumbers[i] << " ";
+		if (luckyNumbers[i] == 7){
+			
+			luckyNumbers[i] = luckyNumbers[i] + 1;
+			cout << "Incremented array element: ";	
+			cout << luckyNumbers[i] << endl;
+		}
 	
 	}
 

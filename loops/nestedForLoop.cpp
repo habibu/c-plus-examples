@@ -8,6 +8,7 @@ int main() {
 
 	for(int col = 0; col < 3; col++) {
 		for(int row = 0; row < 2 ; row++){
+			cout << "#";
 			cout << numMatrix[col][row];
 		}
 		cout << endl;
